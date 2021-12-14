@@ -110,6 +110,11 @@ local function CreateStackedRecipe(name, multiplier)
   SetIngredientsMultiplier(recipe.name, multiplier)
 end
 
+local function SetTimeRequired(name, amount)
+  local recipe = GetRecipe(name)
+  recipe.energy_required = amouunt
+end
+
 local function SetTimeMultiplier(name, multiplier)
   local recipe = GetRecipe(name)
   recipe.energy_required = recipe.energy_required * multiplier
@@ -137,6 +142,7 @@ end
 
 rrm.recipe.GetRecipe = GetRecipe
 rrm.recipe.GetIngredients = rrm.recipe.GetIngredients
+rrm.recipe.SetTimeRequired = SetTimeRequired
 rrm.recipe.SetTimeMultiplier = SetTimeMultiplier
 rrm.recipe.SetIngredients = SetIngredients
 rrm.recipe.AddIngredients = AddIngredients
