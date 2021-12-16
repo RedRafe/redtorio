@@ -2,20 +2,7 @@
 -- -- -- REPAIR PACKS
 ---------------------------------------------------------------------------
 data:extend({
-  -- Wood + iron
-  {
-    type = "recipe",
-    name = rrm.prefix .. "wooden-repair-pack-1",
-    energy_required = 0.5,
-    localised_name = "Wooden repair pack",
-    ingredients =
-    {
-      {"wood", 5},
-      {"iron-plate", 4}
-    },
-    result = "repair-pack"
-  },
-  -- Wood + copper
+  -- Wood + copper + iron
   {
     type = "recipe",
     name = rrm.prefix .. "wooden-repair-pack-2",
@@ -23,8 +10,9 @@ data:extend({
     energy_required = 0.5,
     ingredients =
     {
-      {"wood", 5},
-      {"copper-plate", 4}
+      {"wood", 2},
+      {"copper-plate", 2},
+      {"iron-plate", 2}
     },
     result = "repair-pack"
   }

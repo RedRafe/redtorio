@@ -3,15 +3,15 @@ if not rrm.glossary then rrm.glossary = {} end
 local prfx = rrm.prefix
 
 local function icon_path(filename)
-  return rrm_p_g_icons .. filename .. ".png"
+  return rrm_path_g_icons .. filename .. ".png"
 end
 
 local function entity_path(source, filename)
-  return rrm_p_g_entity .. source .. "/" .. filename .. ".png"
+  return rrm_path_g_entity .. source .. "/" .. filename .. ".png"
 end
 
 local function tech_path(filename)
-  return rrm_p_g_techs .. filename .. ".png"
+  return rrm_path_g_techs .. filename .. ".png"
 end
 
 

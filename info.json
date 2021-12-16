@@ -4,7 +4,11 @@
   "title": "Redtorio",
   "author": "RedRafe",
   "factorio_version": "1.1",
-  "dependencies": ["base >= 1.1"],
+  "dependencies": [
+    "base >= 1.1",
+    "Krastorio2",
+    "nuclear-overhaul"
+  ],
   "homepage": "https://mods.factorio.com/mod/redtorio",
   "description": "Constantly changing content to what I like to play the most"
 }

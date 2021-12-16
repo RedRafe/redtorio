@@ -1,6 +1,6 @@
-require("item")
-require("recipe")
-require("entity")
-require("technology")
+require(rrm_path_library .. "item")
+require(rrm_path_library .. "recipe")
+require(rrm_path_library .. "entity")
+require(rrm_path_library .. "technology")
 
-require("glossary")
+require(rrm_path_library .. "glossary")

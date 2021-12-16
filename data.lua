@@ -2,29 +2,31 @@ rrm = {}
 rrm.prefix = "rrm-"
 rrm.base = "__redtorio__/"
 rrm.internal_name = "redtorio"
+rrm.name = "Redtorio"
 
 -- Init paths
-rrm_p_library  = rrm.base .. "lib/"
-rrm_p_vanilla  = rrm.base .. "vanilla/"
-rrm_p_content  = rrm.base .. "prototypes/"
-rrm_p_graphic  = rrm.base .. "images/"
-rrm_p_g_icons  = rrm_p_graphic .. "icons/"
-rrm_p_g_techs  = rrm_p_graphic .. "technology/"
-rrm_p_g_entity = rrm_p_graphic .. "entity"
+rrm_path_mod      = rrm.base
+rrm_path_library  = rrm_path_mod .. "lib/"
+rrm_path_vanilla  = rrm_path_mod .. "vanilla/"
+rrm_path_content  = rrm_path_mod .. "prototypes/"
+rrm_path_graphic  = rrm_path_mod .. "images/"
+rrm_path_g_icons  = rrm_path_graphic .. "icons/"
+rrm_path_g_techs  = rrm_path_graphic .. "technology/"
+rrm_path_g_entity = rrm_path_graphic .. "entity"
 
 -- Import library
-require(rrm_p_library .. "__init__")
+require(rrm_path_library .. "__init__")
 
 ---------------------------------------------------------------------------
 
 -- Include vanilla balancing
-require(rrm_p_vanilla .. "combat")
-require(rrm_p_vanilla .. "intermediates")
-require(rrm_p_vanilla .. "logistics")
-require(rrm_p_vanilla .. "production")
+require(rrm_path_vanilla .. "combat")
+require(rrm_path_vanilla .. "intermediates")
+require(rrm_path_vanilla .. "logistics")
+require(rrm_path_vanilla .. "production")
 
 -- Extend content
-require(rrm_p_content .. "modules")
-require(rrm_p_content .. "repair-packs")
+require(rrm_path_content .. "modules")
+require(rrm_path_content .. "repair-packs")
 
 ---------------------------------------------------------------------------

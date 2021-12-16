@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------
 -- Update vanilla
-require(rrm_p_vanilla .. "barreling")
+require(rrm_path_vanilla .. "barreling")
 
 -- Update contents
 

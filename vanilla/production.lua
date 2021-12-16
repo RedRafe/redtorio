@@ -24,9 +24,10 @@ rrm.entity.GetEntity("accumulator", "accumulator").energy_source =
 rrm.recipe.SetIngredientsMultiplier("accumulator", 9)
 
 ---- NUCLEAR POWER
--- Steam turbine
-rrm.item.SetStackSize("steam-turbine", 50)
+
 if not mods["nuclear-overhaul"] then
+  -- Steam turbine
+  rrm.item.SetStackSize("steam-turbine", 50)
   -- Heat pipe
   heat_pipe = rrm.entity.GetEntity("heat-pipe", "heat-pipe")
   heat_pipe.max_health = 100
