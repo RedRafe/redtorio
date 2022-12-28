@@ -7,7 +7,7 @@
   "dependencies": [
     "base >= 1.1",
     "Krastorio2",
-    "nuclear-overhaul"
+    "? nuclear-overhaul"
   ],
   "homepage": "https://mods.factorio.com/mod/redtorio",
   "description": "Constantly changing content to what I like to play the most"

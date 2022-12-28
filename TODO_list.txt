@@ -1,0 +1,73 @@
+[/] change recipes
+  [ ] recipes from raw resources
+  [ ] armor take previous
+  [ ] furnace take previous
+[/] change stacks
+  [x] vanilla
+  [ ] krastorio2
+[x] repair packs
+[/] solar and boilers
+  [x] vanilla
+  [ ] k2
+[/] modify modules (1 for each machine? 5-10-15%)
+  [x] vanilla
+  [ ] krastorio2
+[ ] add reverse recipe for modules
+[ ] add recipe for wood -> solid fuel
+[ ] far reach for character
+[ ] water tiles
+[k] tree recipes to be planted
+[ ] nuclear fuel
+[ ] new machines:
+  [ ] wood farm
+  [k] crusher
+  [k] air filter
+  [ ] deep core mining
+[ ] new tiers:
+  [k] storage tank mk2
+  [k] long fast/stack inserter
+  [ ] faster belts
+  [ ] warehouse chests Krastorio
+  [ ] loaders Krastorio
+  [ ] burner assembly machine
+  [ ] burner radar, mk2 radar
+  [ ] mk2 substation
+  [ ] mk2 mining drills
+  [ ] mk2, mk3 assemblers + productivity assemblers mk4, mk5
+  [ ] mk2, mk3 refinery + productivity refinery mk4, mk5
+  [ ] mk2, mk3 furnaces
+  [ ] mk2, mk3 solar and accumulators
+  [ ] mk2, mk3 bots with better battery
+  [ ] mk2, mk3 trains
+  [ ] mk3, mk4, mk5 specialized armors
+  [ ] mk2, mk3 equipments
+  [ ] mk2, mk3 spidertron
+  [ ] T4-T9 modules
+  [ ] defensive turrets
+[ ] new resources:
+  [ ] thorium
+  [ ] bronze, silver, gold, platinum
+  [ ] purple thing
+[ ] new techs:
+  [ ] robot cargo size 
+  [ ] inserter stack size
+  [ ] stacked recipes
+  [ ] merchant? --> market w/ unique recipes unlocked later in the game
+[ ] biters 10times stronger for UPS
+[ ] biters with flame & laser resistance
+[ ] faster start
+[ ] faster pavements
+[ ] late game productivity based on resources crafted?
+[ ] add market?
+[ ] add story?
+[ ] water rails?
+[ ] bulk rail loaders?
+[ ] double/triple tech tree for new tiers mk2, mk3... With recipes x10 times and cost
+
+-------------------------------
+
+TODO list before release:
+- set debug = false
+- check version number
+- edit changelog
+- edit readme

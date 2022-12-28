@@ -52,10 +52,10 @@ end
 
 local function SetResultsMultiplier(name, multiplier)
   local recipe = GetRecipe(name)
-  if recipe.normal then 
+  if recipe.normal then
     if recipe.normal.result then
       local count = recipe.normal.result_count or 1
-      recipe.normal.results = {{ name = recipe.normal.result, amount = count * multiplier }}
+      recipe.normal.results = { { name = recipe.normal.result, amount = count * multiplier } }
       recipe.normal.result = nil
       recipe.normal.result_count = nil
     else
@@ -70,7 +70,7 @@ local function SetResultsMultiplier(name, multiplier)
   else
     if recipe.result then
       local count = recipe.result_count or 1
-      recipe.results = {{ name = recipe.result, amount = count * multiplier }}
+      recipe.results = { { name = recipe.result, amount = count * multiplier } }
       recipe.result = nil
       recipe.result_count = nil
     else
@@ -112,7 +112,7 @@ end
 
 local function SetTimeRequired(name, amount)
   local recipe = GetRecipe(name)
-  recipe.energy_required = amouunt
+  recipe.energy_required = amount
 end
 
 local function SetTimeMultiplier(name, multiplier)
